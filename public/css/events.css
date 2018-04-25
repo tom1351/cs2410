@@ -1,0 +1,29 @@
+img.logo {
+    max-width: 320px;
+}
+
+/* Featured Ribbon */
+.ribbon-wrapper {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+
+}
+
+.ribbon-wrapper .ribbon {
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    position: relative;
+    padding: 10px 0;
+    top: 30px;
+    left: -50px;
+    width: 200px;
+}
+
+#eventsCarousel .carousel-inner {
+    box-shadow: none;
+}
